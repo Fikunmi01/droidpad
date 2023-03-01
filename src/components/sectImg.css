@@ -1,0 +1,36 @@
+.credit-card-circle {
+    width: 50rem;
+    height: 50rem;
+    border-radius: 50%;
+    border: 0.1rem solid #fff;
+    display: inline-block;
+}
+
+
+@media screen and (max-width:768px) {
+    .credit-card-circle {
+        width: 38rem;
+        height: 38rem;
+        left: 5%;
+        position: relative;
+        top: 10rem;
+    }
+
+}
+
+
+@media screen and (min-width:768px) {
+    .credit-card-circle {
+        width: 38rem;
+        position: relative;
+        height: 38rem;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .credit-card-circle {
+        width: 40rem;
+        height: 40rem;
+        background-color: red;
+    }
+}

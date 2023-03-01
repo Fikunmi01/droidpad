@@ -1,0 +1,710 @@
+.home-pageCard {
+  background-color: #f5f5f5;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  padding-bottom: 3.3rem;
+}
+
+.mobile-navbar {
+  width: 34.8rem;
+  padding-left: 3rem;
+  border-right: 0.1rem solid rgba(103, 187, 93, 80%);
+  padding-top: 3.3rem;
+}
+/* 
+.mobile-navbar::after {
+    content:""; 
+    float:left; 
+    background:#87FF4F; 
+    width:60%; 
+    height:6px; 
+    border-radius: 3px;
+} */
+
+.mobile-navbar ul {
+  list-style: none;
+  margin-bottom: 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.mobile-navbar ul li {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #1f311d;
+}
+
+.logo-flex {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 15.3rem;
+}
+
+.logo-flex p {
+  color: #1f311d;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.profile-div {
+  display: flex;
+  flex-direction: row;
+  width: 26rem;
+  height: 6.4rem;
+  gap: 3rem;
+  padding-left: 3rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  align-items: center;
+  font-weight: 700;
+}
+
+.profile-div p {
+  color: #2c6e0d;
+}
+
+.profile-div .bold {
+  color: #1f311d;
+}
+
+.profile-div p {
+  font-size: 1.4rem;
+}
+
+.accountInfo-div {
+  position: relative;
+  width: 46.2rem;
+  padding-left: 3.3rem;
+  padding-right: 3.3rem;
+  padding-top: 3.3rem;
+}
+
+.if hr {
+  border-color: #67bb5d;
+  opacity: 60%;
+}
+
+.balance-label {
+  font-weight: 500;
+  font-size: 2.4rem;
+  color: #1f311d;
+  line-height: 1;
+}
+
+.available-balance {
+  font-size: 3.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1f311d;
+}
+
+.account-info {
+  display: flex;
+  gap: 9rem;
+  border-bottom: 0.1rem solid rgba(103, 187, 93, 80%);
+  align-items: center;
+}
+
+.account-info span .pOne {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #2e9000;
+}
+
+.account-info span .pTwo {
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  color: #1f311d;
+}
+
+.card-infoDiv {
+  margin-top: 1rem;
+}
+
+.card-infoTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-infoTitle p {
+  font-size: 2rem;
+  line-height: 2.5;
+  font-weight: 700;
+  color: #1f311d;
+}
+
+.cardOne {
+  width: 22rem;
+  height: 22rem;
+  position: relative;
+  background-image: linear-gradient(
+    to top left,
+    #1e301c,
+    65%,
+    rgba(30, 48, 28, 0.5) 100%
+  );
+  border-radius: 0.8rem;
+  padding: 3rem;
+}
+
+.cardOne p {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.cardOne hr {
+  opacity: 70%;
+  margin-bottom: 4.5rem;
+}
+
+.cardNo-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardNo-details span p {
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  gap: 0.4rem;
+}
+
+.cardNo-details span .p-one {
+  font-size: 1.3rem;
+  font-weight: 500;
+  opacity: 60%;
+  font-weight: 500;
+}
+
+.cardNo-details input {
+  width: 2.5rem;
+  background-color: inherit;
+  border: none;
+  color: #ffffff;
+}
+
+.cardTwo {
+  background-color: #c8ffae;
+}
+
+.card-menu {
+  display: flex;
+  gap: 3rem;
+}
+
+.cardTwo {
+  width: 15rem;
+  padding: 3rem;
+  height: 22rem;
+  border-radius: 0.8rem;
+}
+
+.cardTwo div {
+  display: flex;
+}
+
+.cardTwo div .ellipse-1 {
+  background-color: #edf9e8;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+}
+
+.cardTwo div .ellipse-2 {
+  background-color: #ffffff;
+  width: 3.5rem;
+  height: 3.5rem;
+  right: 1rem;
+  position: relative;
+  border-radius: 50%;
+}
+
+.cardTwo-number {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12rem;
+}
+
+.cardTwo-number .p-num {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #1f311d;
+  font-weight: 500;
+}
+
+.cardTwo-number p {
+  display: flex;
+  align-items: center;
+  width: 3rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.cardTwo-number input {
+  width: 3rem;
+  font-size: 1.5rem;
+  background-color: inherit;
+  border: none;
+}
+
+.cardBalance {
+  display: flex;
+  gap: 22rem;
+  margin-top: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.cardBalance .label {
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: #2e9000;
+}
+
+.cardBalance p {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #1f311d;
+  line-height: 1.5;
+}
+
+.plans-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plans-heading .bold {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #1f311d;
+}
+
+.plans-heading p {
+  font-size: 1.2rem;
+  color: #1f311d;
+  font-weight: 500;
+}
+
+.plans-item {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  position: relative;
+}
+
+.plans-item .img {
+  width: 5.4rem;
+  height: 4.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.1rem solid #87ff4f;
+  border-radius: 0.8rem;
+}
+
+.plans-item span {
+  border: 0.1rem solid #87ff4f;
+  padding: 1rem;
+  position: relative;
+  width: 36rem;
+  border-radius: 0.8rem;
+  display: flex;
+  height: 3.6rem;
+  align-items: center;
+  gap: 2rem;
+}
+
+.plans-item span progress {
+  width: 18rem;
+  height: 1rem;
+  accent-color: #2e9000;
+}
+
+.plans-item #p1 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1f311d;
+}
+
+.plans-item #p2 {
+  font-size: 1rem;
+  color: #2e9000;
+  font-weight: 600;
+}
+
+.paymentStat-div {
+  background-color: #c8ffae;
+  width: 52rem;
+  border-radius: 0.8rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.paymentStat-div h2 {
+  font-size: 2.2rem;
+  line-height: 2;
+  color: #1f311d;
+  margin-bottom: 0.5rem;
+}
+
+.paymentStat-div span {
+  font-weight: 600;
+  display: flex;
+  gap: 2rem;
+  font-size: 1.6rem;
+  color: #1f311d;
+  line-height: 1.5;
+}
+
+.paymentStat-div hr {
+  border-color: #67bb5d;
+  opacity: 60%;
+  margin-bottom: 0.5rem;
+}
+
+.paymentStat-div .date_bonus {
+  gap: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  color: #1f311d;
+}
+
+.paymentStat-div .date_bonus .cashB {
+  font-size: 1.3rem;
+  height: 2.5rem;
+  padding-left: 1rem;
+  border-radius: 1rem;
+  background-color: #ffffff;
+  padding-right: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.paymentStat-div .date_bonus .cashB span {
+  color: #283eff;
+}
+
+.paymentStat-div .date_bonus .cashB img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.paymentStat-div .balance {
+  font-size: 3.7rem;
+  line-height: 1.5;
+}
+
+.payment-history h2 {
+  margin-top: 1rem;
+}
+
+.payment-history .item-one {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  gap: 3rem;
+}
+
+.flex-column {
+  display: flex;
+  align-items: center;
+}
+
+.flex-column .img-span {
+  width: 5rem;
+  height: 4.5rem;
+  border-radius: 0.8rem;
+  background-color: #edf9e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-span img {
+  width: 1.5rem;
+  height: 1.8rem;
+}
+
+.mastercard-img {
+  width: 3.8rem;
+  height: 2.4rem;
+}
+
+.flex-column .p-one {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.flex-column .text {
+  width: 12rem;
+}
+
+.mastercard p {
+  font-size: 1.4rem;
+  font-weight: 700;
+  width: 10rem;
+}
+
+.flex-column .p-two {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2e9000;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .home-pageCard {
+        flex-direction: column;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+  .mobile-navbar {
+    display: none;
+  }
+
+  #mobile-navbar-desktop .mobile-navbar {
+    display: block;
+    position: relative;
+    z-index: 1;
+  }
+
+  .uil {
+    font-size: 2.8rem;
+    color: #1f311d;
+  }
+
+  .accountInfo-div {
+    padding-left: 0%;
+    position: relative;
+    width: 100%;
+    padding-right: 0%;
+  }
+
+  .balance-label {
+    /* font-size: 200%; */
+    font-size: 1.8rem;
+  }
+
+  .available-balance {
+    font-size: 2.8rem;
+  }
+
+  .account-info span {
+    width:100%;
+    position: relative;
+  }
+
+  .account-info span .pOne {
+    font-size: 1.6rem;
+    width: 110%;
+    /* background-color: red; */
+  }
+
+  .account-info span .pTwo {
+    font-size: 2.4rem;
+  }
+
+  .card-infoTitle p {
+    font-size: 2rem;
+    line-height: 2;
+  }
+
+  .cardNo-details span {
+    width: 100%;
+  }
+
+  .cardNo-details span .p-one {
+    font-size: 1.4rem;
+  }
+
+  .cardNo-details span input {
+    font-size: 1.2rem;
+  }
+
+  .cardOne {
+    padding: 1.5rem;
+    position: relative;
+    width: 100%;
+  }
+
+  .cardNo-details {
+    width: 100%;
+    position: relative;
+  }
+
+  .cardOne hr {
+    top:10%;
+    position: relative;
+  }
+  
+  .cardOne p {
+    margin-bottom: 5%;
+    position: relative;
+  }
+
+  .cardTwo {
+    padding: 1.5rem;
+    width: 60%;
+  }
+
+  .cardTwo-number {
+    bottom: 7%;
+    position: relative;
+  }
+
+  .cardTwo-number .p-num {
+    font-size: 1.4rem;
+  }
+
+  .cardBalance {
+    gap: 48%;
+    justify-content: flex-start;
+    position: relative;
+    width: 100%;
+  }
+
+  .item-one {
+    width: 100%;
+  }
+  
+  .paymentStat-div {
+    width: 100%;
+    position: relative;
+    margin-top: 20%;
+  }
+
+  .plans-item span{
+    width: 100%;
+  }
+
+  .plans-item span progress {
+    width: 100%;
+  }
+
+}
+
+
+
+@media screen and (min-width:768px) {
+  .nav-info {
+    display: none;
+  }
+  .mobile-navbar {
+    width: 24%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+  }
+
+  .logo-flex img {
+    width: 2rem;
+  }
+  
+  .logo-flex p{
+    font-size: 2rem;
+  }
+
+  .profile-div {
+    gap: 1.5rem;
+    width: 20rem;
+    padding-left: 0.5rem;
+  }
+
+  .profile-div p {
+    font-size: 1.2rem;
+  }
+
+  .mobile-navbar ul li img {
+    width: 1.6rem;
+  }
+
+  .mobile-navbar ul li {
+    font-size: 1.4rem;
+    gap: 1rem;
+  }
+
+  .accountInfo-div {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    width: 45%;
+  }
+
+  .balance-label {
+    font-size: 1.8rem;
+  }
+
+  .available-balance {
+    font-size: 2.8rem;
+  }
+
+  .account-info {
+    width: 100%;
+    position: relative;
+    /* gap: 3.5rem; */
+    gap: 13%;
+  }
+
+  .accountInfo-div span .pOne {
+    font-size: 1.4rem;
+    width: 8rem;
+  }
+
+  .accountInfo-div span .pTwo {
+    font-size: 2rem;
+  }
+
+  .card-infoTitle p {
+    font-size: 1.8rem;
+  }
+  .card-menu {
+    gap: 1.5rem;
+  }
+  
+  .cardOne {
+    width: 55%;
+    padding: 1.5rem;
+  }
+  
+  .cardTwo {
+    width: 45%;
+    padding-left: 2rem;
+  }
+
+  .cardOne p {
+    position: relative;
+    margin-bottom: 5%;
+    width: 100%!important;
+  }
+
+  .cardTwo-number {
+    bottom: 2.5rem;
+    position: relative;
+  }
+
+}
+
+
+@media screen and (min-width:992px) {
+  .mobile-navbar {
+    background-color: red;
+  }
+}

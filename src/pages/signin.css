@@ -1,0 +1,329 @@
+.login-container {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  justify-content: space-between;
+}
+
+.signup-container {
+    flex-direction: row-reverse;
+}
+
+.container-one {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: 75.4rem;
+  position: relative;
+  gap: 1rem;
+  background-color: #1f311d;
+}
+
+.container-one h2 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.container-two {
+  width: 70%;
+  font-family: "Poppins", sans-serif;
+  padding-left: 15rem;
+  position: relative;
+  padding-right: 15rem;
+  padding-top: 10rem;
+}
+
+.two-b {
+    padding-top: 11rem;
+}
+
+.container-two .heading {
+  width: 50rem;
+}
+
+.container-two .heading h2 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.container-two .heading p {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.container-two .heading {
+  margin-bottom: 3rem;
+}
+
+.container-two .heading-b {
+    margin-bottom: 3rem;
+}
+
+.signin-form {
+  width: 50rem;
+}
+
+.email-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-label label {
+  color: #87ff4f;
+  font-weight: 600;
+  font-size: 1.7rem;
+  line-height: 2;
+}
+
+.email-label input {
+  border-top: none;
+  line-height: 2;
+  border-left: none;
+  border-right: none;
+  border-bottom: 0.2rem solid rgba(0, 0, 0, 0.4);
+}
+
+.email-label #name {
+    margin-top: 4rem;
+}
+
+.email-label input::placeholder {
+  font-family: "Poppins", sans-serif;
+}
+
+.password-field {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 0.2rem solid rgba(0, 0, 0, 0.4);
+  line-height: 2;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.password-field::placeholder {
+  font-family: "Poppins", sans-serif;
+}
+
+.checkbox-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.checkbox-div a {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #87ff4f;
+}
+
+.checkbox-flex {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.checkbox-flex label {
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+  line-height: 3;
+  text-align: center;
+}
+
+.login-btn {
+  background-color: #87ff4f;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  height: 4.3rem;
+  width: 50rem;
+  border: none;
+  font-weight: 600;
+}
+
+.google-btn {
+  background-color: #fff;
+  margin-bottom: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #000;
+  height: 4.3rem;
+  width: 50rem;
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  justify-content: center;
+  border: 0.1rem solid #87ff4f;
+}
+
+.apple-btn {
+  background-color: #1f311d;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  height: 4.3rem;
+  width: 50rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.btn p {
+  font-size: 1.4rem;
+}
+
+.signup-cta {
+  font-size: 1.4rem;
+  line-height: 4;
+}
+
+.signup-cta span {
+  color: #87ff4f;
+  font-weight: 600;
+}
+
+
+.container-logo {
+    display: flex;
+    right: 85%;
+    position: absolute;
+    gap: 1rem;
+    top: 4rem;
+}
+
+.container-logo img {
+    position: relative;
+    background-color: #1f311d;
+}
+
+
+
+@media screen and (max-width:768px) {
+  .login-container {
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .login-container .container-one {
+  gap: 0.5rem;   
+  }
+
+  .login-container .container-one img {
+    width: 15%;
+  }
+  
+  .login-container .container-one h2{
+    font-size: 1.5rem;
+  }
+  .login-container .container-two {
+    padding-left: 10%;
+    position: relative;
+  }
+  .email-label input{
+  width: 55%;
+  font-size: 1.2rem;
+  }
+  .btn button{
+    width: 55%;
+  }
+
+  .checkbox-div {
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+  }
+
+  .checkbox-flex label {
+    font-size: 1.2rem!important;
+  }
+
+  .checkbox-div .forgot-link{
+    font-size: 1.2rem!important;
+  }
+  
+  .btn p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 55%;
+    position: relative;
+  }
+
+  .btn .Link {
+    width: 55%!important;
+    justify-content: flex-start;
+    display: flex;
+    position: relative;
+  }
+
+ #signup-cta {
+    font-size:1.2rem;
+    width: 25rem;
+    position: relative;
+  }
+
+}
+
+
+@media screen and (min-width:768px) {
+  .login-container {
+    overflow: hidden;
+  }
+  
+  .container-two {
+    padding-left: 10%!important;
+    position: relative;
+  }
+  .email-label input {
+    width: 70%;
+    font-size: 1.2rem;
+  }
+  .checkbox-div {
+    width: 70%;
+    position: relative;
+  }
+
+  .btn button {
+    width: 70%;
+  }
+
+  .btn p {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .email-label input {
+    width: 100%;
+  }
+
+  .checkbox-div {
+    width: 100%;
+  }
+
+  .btn button {
+    font-size: 1.4rem;
+    width: 100%;
+  }
+
+  .btn p {
+    width: 100%;
+  }
+}

@@ -1,22 +1,17 @@
 import React from "react";
-import { Cardcomp, Creditcard } from "./cardcomponent";
+import { Cardcomp } from "./cardcomponent";
+import './sectImg.css';
 
 export default function CardSect() {
   return (
     <>
       <div
-        style={{
-          height: `50rem`,
-          width: `50rem`,
-          borderRadius: `50%`,
-          border: `0.1rem solid #fff`,
-          display: `inlineBlock`,
-        }}
+      className="credit-card-circle"
+      
       >
         <span style={{ position: "relative", top: `30%`, right: `10%` }}>
           <Cardcomp />
         </span>
-
       </div>
     </>
   );

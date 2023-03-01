@@ -1,0 +1,21 @@
+.landingpagestyle {
+    background-color: #1F311D;
+    height: 100vh;
+    position: relative;
+}
+
+
+@media screen and (max-width:768px) {
+    .landingpagestyle {
+        position: relative;
+        height: 165vh;
+        overflow: hidden;
+    }
+}
+
+
+@media screen and (min-width:992px) {
+    .landingpagestyle {
+        overflow: hidden;
+    }
+}

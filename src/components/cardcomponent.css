@@ -1,6 +1,6 @@
-.card {
+/* .card {
     width: 25rem;
-    height: 15.1rem;
+    height: 20.1rem;
     position: relative;
     box-shadow: 0.25rem 0.25rem rgba(246,254,255,0.3);
     z-index: 1;
@@ -86,6 +86,17 @@
     font-size: 2.3rem;
 }
 
+.CS-number p{
+    font-size: 1.9rem;
+}
+
+.cs-holder p {
+    font-size: 1.7rem;
+}
+
+.cs-holder h2 {
+    font-size: 1.8rem;
+}
 .c-details {
     display: flex;
     font-family: 'Poppins', sans-serif;
@@ -131,3 +142,77 @@
     position: relative;
     border: 0.1rem solid #000;
 }
+
+.csmall {
+    width: 25.5rem ;
+    left: -45rem;
+    position: relative;
+    z-index: 2;
+}
+
+.c-small {
+    left: 41rem;
+    position: absolute;
+}
+
+.ellipse-1b {
+    position: relative;
+}
+
+.icon {
+    border-radius: 50%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 3.1rem;
+    height: 3.1rem;
+    background-color: #87FF4F;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .card {
+        left: 5%;
+    }
+    .c-card {
+        width: 50rem;
+        height: 25rem;
+        bottom: 18rem;
+        right: 2%;
+    }
+
+
+    .c-holder h2 {
+        font-size: 1.8rem;
+    }
+
+    .c-number p {
+        line-height: 4;
+    }
+
+    .c-cardtype{
+        bottom: 6rem;   
+        line-height: 1.7  ;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .c-card {
+        /* bottom: 26rem; */
+        /* height: 24rem; */
+        /* right: 9rem; */
+        /* width: 40rem; */
+        /* position: absolute; */
+    /* } */
+    /* .c-number p { */
+        /* line-height: 2 */
+    /* } */
+    /* .card { */
+        /* width: 26rem; */
+        /* height: 14rem; */
+
+        /* position: relative; */
+    /* } */
+/* } */
+

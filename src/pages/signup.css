@@ -1,0 +1,422 @@
+.signup-container {
+  flex-direction: row-reverse;
+  overflow: hidden;
+}
+
+.container-one {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: 35%;
+  position: relative;
+  gap: 1rem;
+  background-color: #1f311d;
+}
+
+.container-one h2 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.container-logo h2 {
+  font-size: 2.5rem;
+}
+
+.container-two {
+  width: 70%;
+  font-family: "Poppins", sans-serif;
+  padding-left: 15rem;
+  position: relative;
+  padding-right: 15rem;
+  padding-top: 10rem;
+}
+
+.two-b {
+  padding-top: 11rem;
+}
+
+.container-two .heading {
+  width: 50rem;
+}
+
+.container-two .heading h2 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.container-two .heading p {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.container-two .heading {
+  margin-bottom: 3rem;
+}
+
+.container-two .heading-b {
+  margin-bottom: 3rem;
+}
+
+.signin-form {
+  width: 50rem;
+}
+
+.email-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-label label {
+  color: #87ff4f;
+  font-weight: 600;
+  font-size: 1.7rem;
+  line-height: 2;
+}
+
+.email-label input {
+  border-top: none;
+  line-height: 2;
+  border-left: none;
+  border-right: none;
+  border-bottom: 0.2rem solid rgba(0, 0, 0, 0.4);
+}
+
+.email-label #name {
+  margin-top: 4rem;
+}
+
+.email-label input::placeholder {
+  font-family: "Poppins", sans-serif;
+}
+
+.password-field {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 0.2rem solid rgba(0, 0, 0, 0.4);
+  line-height: 2;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.password-field::placeholder {
+  font-family: "Poppins", sans-serif;
+}
+
+.checkbox-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.checkbox-div a {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #87ff4f;
+}
+
+.checkbox-flex {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.checkbox-flex label {
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+  line-height: 3;
+  text-align: center;
+}
+
+.login-btn {
+  background-color: #87ff4f;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  height: 4.3rem;
+  width: 50rem;
+  border: none;
+  font-weight: 600;
+}
+
+.google-btn {
+  background-color: #fff;
+  margin-bottom: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #000;
+  height: 4.3rem;
+  width: 50rem;
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  justify-content: center;
+  border: 0.1rem solid #87ff4f;
+}
+
+.apple-btn {
+  background-color: #1f311d;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  height: 4.3rem;
+  width: 50rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.btn p {
+  font-size: 1.4rem;
+}
+
+.signup-cta {
+  font-size: 1.4rem;
+  line-height: 4;
+}
+
+.signup-cta span {
+  color: #87ff4f;
+  font-weight: 600;
+}
+
+.container-logo {
+  display: flex;
+  right: 85%;
+  position: absolute;
+  gap: 1rem;
+  top: 4rem;
+}
+
+.container-logo img {
+  position: relative;
+  background-color: #1f311d;
+}
+
+.one-b {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.one-b span {
+  position: absolute;
+}
+
+.compo {
+  right: 46%;
+  z-index: 1;
+  width: 120%;
+}
+
+.crecard {
+  right: 11.5%;
+  width: 100%;
+  position: absolute;
+}
+
+.ellipse {
+  position: absolute;
+  width: 100%;
+  right: 22%;
+}
+
+@media screen and (max-width: 768px) {
+  .signup-container {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+  }
+  .container-logo {
+    width: 10%;
+    top: 4%;
+    right: 86.5%;
+  }
+
+  .container-logo img {
+    width: 2.5rem;
+  }
+
+  .container-logo h2 {
+    font-size: 1.8rem;
+  }
+
+  .two-b {
+    padding-left: 3% !important;
+    position: relative;
+    width: 100%;
+  }
+
+  .two-b .heading-b h2 {
+    font-size: 1.8rem;
+  }
+
+  .two-b {
+    padding-top: 16%;
+  }
+
+  .signin-form label {
+    font-size: 1.4rem;
+  }
+  .one-b {
+    width: 32%;
+    margin: auto;
+    position: absolute;
+  }
+
+  .one-b .ellipse {
+    position: absolute;
+    width: 700%;
+    left: -3rem;
+  }
+
+  .signin-form input {
+    width: 50%;
+  }
+
+  .checkbox-div {
+    width: 55%;
+    right: 2rem;
+    position: relative;
+  }
+
+  .checkbox-div a {
+    font-size: 1.2rem;
+  }
+
+  .checkbox-div label {
+    font-size: 1rem;
+  }
+
+  .checkbox-flex {
+    display: flex;
+    gap: 0.1rem;
+  }
+
+  .checkbox-flex label {
+    width: 13rem;
+  }
+
+  .one-b .compo {
+    width: 700%;
+    left: -52%;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+  }
+
+  .one-b .crecard {
+    width: 500%;
+    left: -2rem;
+  }
+
+  .email-label label {
+    line-height: 1;
+    font-size: 1.2rem;
+  }
+
+  .signup-cta {
+    line-height: 2.5;
+    font-size: 1.2rem;
+  }
+  
+  .btn button {
+    width: 50%;
+    font-size: 1.2rem;
+  }
+
+  .btn p {
+    width: 50%;
+  }
+}
+
+
+@media screen and (min-width:768px) {
+  .email-label label {
+    line-height: 1.5;
+    font-size: 1.4rem;
+  }
+
+  .email-label input{
+    line-height: 1.5;
+  }
+
+  .signin-form input {
+    width: 75%;
+  }
+
+  .signup-cta {
+    line-height: 2;
+  }
+
+  .btn button {
+    width: 75%;
+    font-size: 1.6rem;
+  }
+
+  .checkbox-div {
+  width: 75%;
+  right: 0rem;
+  }
+
+  .checkbox-div label {
+    width: 12rem;
+    left: 2rem;
+    position: absolute;
+  }
+}
+
+
+
+@media screen and (min-width:992px) {
+  .email-label label {
+    line-height: 1.5;
+    font-size: 1.6rem;
+  }
+
+  .email-label input{
+    line-height: 1.5;
+  }
+
+  .signin-form input {
+    width: 100%;
+  }
+
+  .signup-cta {
+    line-height: 2;
+  }
+
+  .btn button {
+    width: 100%;
+    font-size: 1.6rem;
+  }
+
+  .checkbox-div {
+  width: 100%;
+  right: 0rem;
+  }
+
+  .checkbox-div label {
+    width: 12rem;
+    left: 2rem;
+    position: absolute;
+  }
+}

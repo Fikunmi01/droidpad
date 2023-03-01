@@ -3,18 +3,10 @@
     padding-right: 6rem;
     font-family: 'Poppins', sans-serif;
     display: flex;
-    justify-content: space-between;
+        justify-content: space-between;
     color: #fff;
     position: relative;
 }
-
-/* .section-one .it1 .underline{ */
-    /* text-decoration: underline; */
-    /* text-decoration-color: #87FF4F; */
-    /* border-radius: 0.5rem; */
-    /* box-shadow: 0 0.2rem 0 0 #87FF4F; */
-/* } */
-/* A different styling for the border */
 
 .underline:after { 
     content:""; 
@@ -52,4 +44,138 @@
     font-size: 1.8rem;
     border-radius: 1rem;
     font-weight: 900;
+}
+
+.section-two {
+    position: relative;
+}
+
+.section-two div{
+    display: flex;
+    top:4%;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.section-two .ell {
+    width: 60%;
+}
+
+.section-two .compo {
+    position: absolute;
+    z-index: 1;
+    width: 90%;
+}
+
+.section-two .cac {
+    position: absolute;
+    width: 45%;
+}
+
+
+@media screen and (max-width:768px) {
+    .hero {
+        padding: 4%;
+        flex-direction: column;
+        position: relative;
+    }
+    .section-one .it1 {
+        position: relative;
+
+    }
+
+    .section-two div{
+        display: flex;
+        top: 10rem;
+        position: relative;
+        justify-content: center;
+    }
+
+    .section-two .ell {
+        width: 80%;
+    }
+
+    .section-two .compo {
+        width: 100%;
+        position: absolute;
+        right: 12rem;
+        z-index: 1;
+    }
+
+    .section-two .cac {
+        width: 60%;
+        position: absolute;
+    }
+
+    .section-one .it1 p {
+        height: 10%;
+        padding-bottom: 5%;
+        font-size: 5.2rem;
+        width: 100%;
+        line-height: 1.5;
+    }
+    
+}
+
+@media screen and (min-width:768px) {
+    .hero {
+        position: relative;
+        padding:  3%;
+    }
+    .section-two {
+        position: relative;
+    }
+    
+    .section-one .it1 p {
+        position: relative;
+        font-size:5.4rem;
+        height: 58%;
+        margin-bottom: 7.2%;
+        line-height: 1.5;
+        width: 90%;
+    }
+    .section-one .it2 {
+        padding-right: 2rem;
+        font-size: 1.8rem;
+        display: block;
+        position: relative;
+
+    }
+    .section-two {
+        position: relative;
+        width: 100%;
+        display: block;
+    }
+
+    .section-two div{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .section-two .ell {
+        width: 100%;
+    }
+
+    .section-two .compo {
+        right: 31%;
+        width: 100%;
+    }
+
+    .section-two .cac {
+        width: 80%;
+    }
+}
+
+
+@media screen and (min-width:992px) {
+    .section-two  {
+        bottom: 5rem;
+    }
+    
+    .section-two .ell {
+        width: 68%;
+    }
+    .section-two .cac {
+        width:45%;
+    }
 }
