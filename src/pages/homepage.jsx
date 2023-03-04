@@ -43,6 +43,17 @@ const data = [
   },
 ];
 
+const plans = [
+  {
+    goal: "Buy a car",
+    raised: `2400/3000`,
+  },
+  {
+    goal: "Buy a car",
+    raised: `3000/7000`,
+  },
+];
+
 const MobNav = () => {
   return (
     <>
@@ -89,7 +100,7 @@ const MobNav = () => {
             <p>Product Manager</p>
           </span>
 
-          <span>
+          <span className="arrow">
             <img src={Arrow} alt="arrow icon" />
           </span>
         </div>
@@ -190,7 +201,7 @@ export const Homepage = () => {
           </span>
 
           <div className="cardBalance">
-            <span>
+            <span id="labels">
               <p className="label">Balance</p>
               <p>$5000</p>
             </span>
@@ -210,22 +221,28 @@ export const Homepage = () => {
               <p>VIEW ALL</p>
             </div>
 
-            <div className="plans-item">
-              <>
-                <span>
-                  <div>
-                    <p id="p1">Buy a car</p>
-                    <p id="p2">$2400/$3400</p>
+            {plans.map((Plans, i) => {
+              return (
+                <>
+                  <div className="plans-item">
+                    <div>
+                      <span className="details-span">
+                        <div>
+                          <p id="p1">{Plans.goal}</p>
+                          <p id="p2">{Plans.raised}</p>
+                        </div>
+
+                        <progress max="100" min="0" value="70"></progress>
+                      </span>{" "}
+                    </div>
                   </div>
 
-                  <progress max="100" min="0" value="70"></progress>
-                </span>{" "}
-              </>
-
-              <div className="img">
-                <img src={Dmicon} />
-              </div>
-            </div>
+                  <div id="img">
+                    <i class="uil uil-message"></i>
+                  </div>
+                </>
+              );
+            })}
           </span>
         </div>
 
@@ -277,7 +294,7 @@ export const Homepage = () => {
                       </span>
 
                       <span>
-                        <p>{e.amount}</p>
+                        <p className="phAmount">{e.amount}</p>
                       </span>
                     </div>
                   </span>
