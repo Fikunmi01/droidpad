@@ -282,7 +282,39 @@ input[type="password"] {
 }
 
 
-@media screen and (min-width:768px) {
+@media screen and (max-width:425px) {
+  .login-container .container-two {
+    padding-left: 1rem;
+    width: 70%;
+  }
+
+  .login-container .btn button {
+    width: 50%;
+  }
+
+  .login-container .btn p {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width:375px) {
+  .login-container .container-two {
+    width:72%;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .login-container .container-one {
+    display: none;
+  }
+  
+  .login-container .container-two {
+    width:100%;
+    padding-left: 1rem;
+  }
+}
+
+@media screen and (min-width:768.1px) {
   .login-container {
     overflow: hidden;
   }

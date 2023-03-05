@@ -238,7 +238,7 @@ export const Homepage = () => {
                   </div>
 
                   <div id="img">
-                    <i class="uil uil-message"></i>
+                    <i className="uil uil-message"></i>
                   </div>
                 </>
               );

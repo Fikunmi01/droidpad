@@ -117,7 +117,26 @@
     
 }
 
-@media screen and (min-width:768px) {
+@media screen and (max-width:425px) {
+    .section-two {
+        left: 8%;
+    }
+
+    .section-one .it2 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:320px) {
+
+    .hero{
+    }
+    .section-two {
+        left: 12%;
+    }
+}
+
+@media screen and (min-width:768.1px) {
     .hero {
         position: relative;
         padding:  3%;

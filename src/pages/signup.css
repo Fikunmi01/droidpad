@@ -348,8 +348,65 @@ input[type="password"] {
   }
 }
 
+@media screen and (max-width:425px) {
+  .signup-container .container-two{
+    width: 100%;
+  }
 
-@media screen and (min-width:768px) {
+  .signup-container input {
+    width: 70%;
+  }
+
+  .signup-container .checkbox-div {
+    width: 70%;
+  }
+
+  .btn button {
+    width: 70%;
+  }
+
+  .btn p {
+    width: 70%;
+  }
+
+  .signup-container .checkbox-flex label {
+    width: 15rem;
+  }
+
+  .signup-container .container-one {
+    display: none;
+    
+  }
+}
+
+
+@media screen and (max-width:320px) {
+  .signup-container .container-two {
+    width: 100%;
+  }
+  
+  .signup-container input {
+    width: 55%;
+  }
+
+  .signup-container .checkbox-div {
+    width: 55%;
+  }
+
+  .btn button {
+    width: 55%;
+  }
+
+  .btn p {
+    width: 55%;
+  }
+
+  .signup-container .checkbox-flex label {
+    width: 35%;
+  }
+}
+
+@media screen and (min-width:768.1px) {
   .email-label label {
     line-height: 1.5;
     font-size: 1.4rem;
