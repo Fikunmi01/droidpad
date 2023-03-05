@@ -298,7 +298,7 @@ export const Homepage = () => {
                       </span>
                     </div>
                   </span>
-                  <vr />;
+                  <vr />
                 </>
               );
             })}
