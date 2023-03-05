@@ -61,7 +61,9 @@ export const Navbar = () => {
                     <p>Resources</p>
                   </li>
                   <li>
-                    <p>Company</p>
+                    {/* <p>Company</p> */}
+                    <p><Link to="/home-page">Company</Link></p>
+
                   </li>
                   <li>
                     <p>Pricing</p>

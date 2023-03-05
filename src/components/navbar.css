@@ -126,10 +126,11 @@
     position: relative;
   }
   .mob-div {
-    position:relative;
+    position:fixed;
     width: 100%;
     margin: auto;
-    bottom: 12rem;
+    bottom: 0rem;
+    z-index: 2;
   }
 
   .mob-div .nav-links li p {

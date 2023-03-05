@@ -13,3 +13,8 @@ html {
   font-size: 62.5%;
   font-family: 'Poppins', sans-serif;
 }
+
+.uil {
+  cursor: pointer!important;
+  z-index: 3!important;
+}
