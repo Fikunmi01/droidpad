@@ -672,7 +672,8 @@ justify-content: flex-end;
   }
 
   #mobile-navbar-desktop .mobile-navbar .profile-div {
-    bottom: 3rem;
+    /* bottom: 3rem; */
+    top: 2%;
     width: 100%;
     padding-left: 1rem;
     position: relative;
